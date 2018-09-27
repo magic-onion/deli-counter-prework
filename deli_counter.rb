@@ -24,6 +24,6 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, index|
       full_line[index] = "#{index + 1}. #{name}"
     end
-  puts "The line is currently:" + full_line.join(" ")
+  puts "The line is currently: " + full_line.join(" ")
   end
 end
