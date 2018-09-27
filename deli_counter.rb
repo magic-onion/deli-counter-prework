@@ -22,7 +22,7 @@ def line(katz_deli)
   else
     full_line = []
     katz_deli.each_with_index do |name, index|
-    full_line[index] = "#{index + 1}. #{name}"
+      full_line[index] = "#{index + 1}. #{name}"
   end
   puts "The line is currently:" + full_line.join(" ")
 end
